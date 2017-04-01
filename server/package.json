@@ -1,0 +1,23 @@
+{
+  "name": "goofybot",
+  "version": "1.0.0",
+  "description": "twitch chat bot base on nodejs and react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar60310/GoofyBotJS.git"
+  },
+  "keywords": [
+    "chatbot",
+    "twitch"
+  ],
+  "author": "tsai chen ping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscar60310/GoofyBotJS/issues"
+  },
+  "homepage": "https://github.com/oscar60310/GoofyBotJS#readme"
+}
