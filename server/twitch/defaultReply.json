@@ -1,0 +1,12 @@
+{
+    "SayHi": ["%sender_display_name% 哈囉，好久不見",
+    "%sender_display_name% Hi，你終於來了",
+    "嘿 %sender_display_name% ，還記得我嗎?",
+    "%sender_display_name% 安安 :)"],
+    "Bye": ["%sender_display_name% 再見~ 下次再來喔~",
+    "%sender_display_name% 掰掰 :) 等你回來 ~",
+    "下次見囉 ~ %sender_display_name%"],
+    "Praise": ["<3 <3 <3",
+    "%sender_display_name% 謝謝你 :D",
+    "%sender_display_name% 謝謝稱讚 ^_^"]
+}

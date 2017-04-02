@@ -28,7 +28,7 @@ module.exports = {
     port: 8000
   },
   output: {
-    path: __dirname + "/src/",
+    path: "../server/static/",
     filename: "client.min.js"
   },
   plugins: debug ? [] : [
