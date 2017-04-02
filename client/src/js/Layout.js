@@ -1,11 +1,13 @@
-import React from 'react';
+import React from 'react'
 import Header from './component/header/Header'
 import Nav from './component/nav/Nav'
 import { browserHistory } from 'react-router'
+import "./main.sass"
+
 export default class Layout extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { openNav: false }
+        this.state = { openNav: false };
     }
     changeDir = (p) => {
         this.setState({openNav: false, title: p.name});

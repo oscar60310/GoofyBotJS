@@ -14,17 +14,17 @@ export default class Nav extends React.Component {
     componentWillReceiveProps(props) {
         this.setState({ open: props.open });
     }
-    closetab = (r) => {    
+    closetab = (r) => {
         this.props.changeDir(r);
     }
     render() {
         var itemlist = [];
-        Navlist.map((obj,i)=>{
-            itemlist.push(<MenuItem key={i} onClick={() => this.closetab(obj)}>{obj.name}</MenuItem>);
+        Navlist.map((obj, i) => {
+            itemlist.push(<MenuItem style={{ fontFamily: '微軟正黑體' }} key={i} onClick={() => this.closetab(obj)}>{obj.name}</MenuItem>);
         });
         return (
             <MuiThemeProvider>
-                <Drawer open={this.state.open}>
+                <Drawer open={this.state.open} >
                     {itemlist}
                 </Drawer>
             </MuiThemeProvider>
