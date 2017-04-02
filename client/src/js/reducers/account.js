@@ -8,6 +8,7 @@ export default function reducer(state = { login: false }, action) {
                 ...state,
                 displayName: (action.payload.data.login) ? action.payload.data.displayName: "LOGIN",
                 login: action.payload.data.login,
+                url: action.payload.data.loginUrl,
                 pending: false
             };
         }
